@@ -1,6 +1,6 @@
 name = Menu Overview enhance
 description = Adds extra row to menu overview with menu item Language.
 backdrop = 1.x
-package = "Wordpress Import"
+package = Translation
 type = module
-version = "1.x-1.x-dev"
+version = 1.x-1.x-dev

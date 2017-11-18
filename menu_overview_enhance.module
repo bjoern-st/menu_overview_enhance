@@ -7,7 +7,7 @@ function menu_overview_enhance_theme_registry_alter(&$theme_registry) {
   if (isset($theme_registry['menu_overview_form'])) {
     $theme_registry['menu_overview_form']['function'] = 'menu_overview_enhance_menu_overview_form';
     $theme_registry['menu_overview_form']['file'] = 'menu_overview_enhance.module';
-    $theme_registry['menu_overview_form']['theme path'] = drupal_get_path('module', 'menu_overview_enhance');
+    $theme_registry['menu_overview_form']['theme path'] = backdrop_get_path('module', 'menu_overview_enhance');
   }
 }
 
